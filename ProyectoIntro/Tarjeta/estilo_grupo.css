@@ -1,17 +1,39 @@
-*  {
-	margin: 0px;
-	padding: 0px;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+ul li{
+	list-style: none;
+	text-align: left;
+}
+h1{
+	font-family: 'Michroma', sans-serif;
+	font-size: 50px;
+}
+h4{
+	font-weight: 30px;
+}
+p{
+	font-family: 'Glory', sans-serif;
+	font-size: 20px;
+	text-align: justify;
 }
 body {
-	font-family: helvetica,sans-serif;
-	background: #000;
-	color: #fff;
+	background: #2E757C;
+	color: black;
+	font-family: ;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 #titulo {
 	background: #0F3B47;
 	text-align: center;
 	padding: 40px;
 	color: ;
+	margin: 20px 250px 15px 250px;
+	border-radius: 15px;
 }
 #titulo h4 {
 	color: #afafaf;
@@ -25,6 +47,8 @@ body {
 	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://i.imgur.com/qU09o3e.png) no-repeat center;
 	background-size: 120em 80em;
 	background-position: center 0px;
+	margin: 0px 250px 0px 250px;
+	border-radius: 15px;
 }
 .tarjeta {
 	text-align: center;
@@ -33,7 +57,7 @@ body {
 	margin-top: 100px;
 	background: #BAC19C;
 	border-radius: 10%;
-	width: 30em;
+	width: 300em;
 	height: 20em;
 	box-shadow: 2px 2px 5px 2px #aaa;
 }
@@ -41,7 +65,8 @@ body {
 	transform: translateY(-15px);
 }
 .tarjeta:hover img {
-	transform: translateY(-100px);
+	transition-delay: 1s;
+	transform: translateY(-15px);
 }
 .tarjeta__nombres {
 	font-size: 30px;
@@ -51,30 +76,22 @@ body {
 	font-size: 20px;
 	margin: 10px;
 }
+ img {
+	width: 50px;
+	border-radius: 50%;
+	
+}
 .tarjeta__github1, 
 .tarjeta__github2, 
 .tarjeta__github3,
 .tarjeta__github4,
-.tarjeta__github5, img {
-	width: 6em;
+.tarjeta__github5 {
+	width: 50px;
 	margin: 10px;
-	margin-left: 35px;
 	position: absolute;
-	top: 143px;
-	border-radius: 50%;
-	background: #BAC19C;
 }
-#return_button {
-	margin-top: 20px;
-	margin-left: 43em;
-	text-align: center;
-	height: 70px;
-	width: 40%;
-	border: 0px;
-	background: #BAC19C;
-	border-radius: 5px;
-}
-#return_button:hover {
-	transform: translateY(-5px);
-	color: #BAC19C;
+
+.btn-neon {
+	margin-left: 36em;
+	margin-top: 13px;
 }

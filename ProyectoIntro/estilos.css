@@ -8,12 +8,11 @@ h1{
 	font-size: 50px;
 }
 p{
-	font-family: 'Glory', sans-serif;
 	font-size: 20px;
 	text-align: justify;
 }
 body {
-	background: #2E757C;
+	background: #021C1E;
 	color: black;
 	font-family: ;
 }
@@ -46,13 +45,13 @@ a:link, a:visited, a:active {
 .contenedor .contenido,
 .contenedor .sidebar,
 .contenedor .footer {
-	background: #BAC19C;
+	background: #F1F1F2;
 	padding: 20px;
 	border-radius: 6px;
 }
 
 .contenedor .header {
-	background: #0F3B47;
+	background: #B3C100;
 	color: whitesmoke;
 	grid-area: header;
 	grid-template-areas: "boton-1 boton-1";
@@ -76,7 +75,7 @@ a:link, a:visited, a:active {
 
 .contenedor .sidebar {
 	grid-column: 1 / 2;
-	background: #BAC19C;
+	background: #F1F1F2;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -88,7 +87,7 @@ a:link, a:visited, a:active {
 .contenedor .sidebar2 {
 	grid-column: 3 / 4;
 	grid-row: 4 / 5;
-	background: #BAC19C;
+	background: #F1F1F2;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -98,7 +97,7 @@ a:link, a:visited, a:active {
 
 .contenedor .sidebar3 {
 	grid-column: 1 / 2;
-	background: #BAC19C;
+	background: #F1F1F2;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -108,7 +107,7 @@ a:link, a:visited, a:active {
 
 .contenedor .sidebar4 {
 	grid-column: 3 / 4;
-	background: #BAC19C;
+	background: #F1F1F2;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -124,7 +123,7 @@ a:link, a:visited, a:active {
 .contenedor .boton-6,
 .contenedor .boton-7,
 .contenedor .boton-8{
-	background: #436D6F;
+	background: #4CB5F5;
 	color: black;
 	height: 50px;
 	text-align: center;
@@ -306,7 +305,7 @@ a:link, a:visited, a:active {
 .tarjeta{
 	width: 300px;
 	height: 350px;
-	background: #223839;
+	background: #1E434C;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -318,10 +317,21 @@ a:link, a:visited, a:active {
 
 }
 
-.adelante, .atras{
+.adelante {
 	width: 100%;
 	height: 100%;
-	margin-top: 60px;
+	margin-top: 70px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.atras{
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -337,7 +347,6 @@ a:link, a:visited, a:active {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 
-	padding: 15px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
