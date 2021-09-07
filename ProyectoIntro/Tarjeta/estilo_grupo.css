@@ -1,0 +1,80 @@
+*  {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: helvetica,sans-serif;
+	background: #000;
+	color: #fff;
+}
+#titulo {
+	background: #0F3B47;
+	text-align: center;
+	padding: 40px;
+	color: ;
+}
+#titulo h4 {
+	color: #afafaf;
+}
+#cuerpo {
+	display: flex;
+	color: #000;
+	position: relative;
+	text-align: center;
+	height: 40em;
+	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://i.imgur.com/qU09o3e.png) no-repeat center;
+	background-size: 120em 80em;
+	background-position: center 0px;
+}
+.tarjeta {
+	text-align: center;
+	align-content: center;
+	margin: 20px;
+	margin-top: 100px;
+	background: #BAC19C;
+	border-radius: 10%;
+	width: 30em;
+	height: 20em;
+	box-shadow: 2px 2px 5px 2px #aaa;
+}
+.tarjeta:hover {
+	transform: translateY(-15px);
+}
+.tarjeta:hover img {
+	transform: translateY(-100px);
+}
+.tarjeta__nombres {
+	font-size: 30px;
+	margin: 20px 10px 10px 5px;
+}
+.tarjeta__descripcion {
+	font-size: 20px;
+	margin: 10px;
+}
+.tarjeta__github1, 
+.tarjeta__github2, 
+.tarjeta__github3,
+.tarjeta__github4,
+.tarjeta__github5, img {
+	width: 6em;
+	margin: 10px;
+	margin-left: 35px;
+	position: absolute;
+	top: 143px;
+	border-radius: 50%;
+	background: #BAC19C;
+}
+#return_button {
+	margin-top: 20px;
+	margin-left: 43em;
+	text-align: center;
+	height: 70px;
+	width: 40%;
+	border: 0px;
+	background: #BAC19C;
+	border-radius: 5px;
+}
+#return_button:hover {
+	transform: translateY(-5px);
+	color: #BAC19C;
+}
